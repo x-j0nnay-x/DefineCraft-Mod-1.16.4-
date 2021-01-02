@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "definecraft:blocks/meltingobsidian_2"
+  }
+}

@@ -39,7 +39,7 @@ public class LiquidWalker extends Enchantment {
     @Mod.EventBusSubscriber(modid = definecraftCore.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
     public static class EnchantmentEquiped {
         @SubscribeEvent
-        public static void ChangeNearByLava(TickEvent.PlayerTickEvent event ) {
+        public static void ChangeNearByLava(TickEvent.PlayerTickEvent event) {
             PlayerEntity living = event.player;
             World worldIn = living.world;
             BlockPos pos = living.getPosition();
@@ -49,7 +49,7 @@ public class LiquidWalker extends Enchantment {
                         living.getItemStackFromSlot(EquipmentSlotType.FEET)) > 0) {
 
                     BlockState blockstate = RegHandler.MELTINGOBSIDIANL.get().getDefaultState();
-                    float f = (float) Math.min(16, 2);
+                    float f = (float) Math.min(16, 4);
                     BlockPos.Mutable blockpos$mutable = new BlockPos.Mutable();
 
                     for (BlockPos blockpos : BlockPos.getAllInBoxMutable(pos.add((double) (-f), -1.0D, (double) (-f)), pos.add((double) f, -1.0D, (double) f))) {
@@ -70,7 +70,7 @@ public class LiquidWalker extends Enchantment {
             }
         }
         @SubscribeEvent
-        public static void ChangeNearByWater(TickEvent.PlayerTickEvent event ) {
+        public static void ChangeNearByWater(TickEvent.PlayerTickEvent event) {
             PlayerEntity living = event.player;
             World worldIn = living.world;
             BlockPos pos = living.getPosition();
@@ -80,7 +80,7 @@ public class LiquidWalker extends Enchantment {
                         living.getItemStackFromSlot(EquipmentSlotType.FEET)) > 0) {
 
                     BlockState blockstate = RegHandler.MELTINGOBSIDIANW.get().getDefaultState();
-                    float f = (float) Math.min(16, 2);
+                    float f = (float) Math.min(16, 4);
                     BlockPos.Mutable blockpos$mutable = new BlockPos.Mutable();
 
                     for (BlockPos blockpos : BlockPos.getAllInBoxMutable(pos.add((double) (-f), -1.0D, (double) (-f)), pos.add((double) f, -1.0D, (double) f))) {
