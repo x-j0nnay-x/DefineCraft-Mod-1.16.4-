@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x"
+
+  ],
+
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:hellstonebar"
+    }
+
+
+  },
+  "result":
+  {
+    "item": "definecraft:hellstoneboots",
+    "count": 1
+  }
+}

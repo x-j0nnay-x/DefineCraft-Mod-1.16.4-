@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:dusts/diamond",
+    "#forge:dusts/gold",
+    "#forge:dusts/hellstone",
+    "#forge:dusts/iron",
+    "#forge:dusts/obsidian",
+    "#forge:dusts/silver",
+    "#forge:dusts/terbium"
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:obsidianbar"
+    }
+
+
+  },
+  "result":
+  {
+    "item": "definecraft:obsidianchest",
+    "count": 1
+  }
+}

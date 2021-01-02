@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+
+  "ingredient": {
+    "item": "definecraft:irondust"
+  },
+
+  "result": "minecraft:iron_ingot",
+  "experience": 0.8,
+  "cookingtime": 130
+
+
+}

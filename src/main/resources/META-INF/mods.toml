@@ -1,0 +1,22 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[34,)"
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+
+modId="definecraft" #mandatory
+
+version="M-1.16.4-V-01.02" #mandatory
+
+displayName="DefineCraft Mod" #mandatory
+
+logoFile="DefineCraft.png" #optional
+
+authors="xX_j0nnay_Xx" #optional
+
+description='''
+This Mod adds more ores, more armor, more tools.
+
+'''

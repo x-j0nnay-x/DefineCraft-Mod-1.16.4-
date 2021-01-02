@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+
+  "ingredient": {
+    "item": "definecraft:diamondust"
+  },
+
+  "result": "minecraft:diamond",
+  "experience": 0.8,
+  "cookingtime": 130
+
+
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/hellspawn",
+    "#forge:ingots/hellstone",
+    "#forge:ingots/obsidian",
+    "#forge:ingots/silver",
+    "#forge:ingots/terbium"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zzx",
+    "zyx",
+    "zxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:hellstonenug"
+    },
+    "z":
+        {
+          "item": "definecraft:obsidiannug"
+        },
+    "y":
+    {
+      "item": "definecraft:golddust"
+    }
+
+  },
+  "result":
+  {
+    "item": "definecraft:hellspawnnug",
+    "count": 3
+  }
+}

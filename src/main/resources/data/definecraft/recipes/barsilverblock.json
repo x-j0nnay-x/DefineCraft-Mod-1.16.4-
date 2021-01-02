@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:silverblock"
+    }
+
+  },
+  "result":
+  {
+    "item": "definecraft:silverbar",
+    "count": 9
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "x",
+    "z"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:hellspawnbar"
+    },
+    "z":
+        {
+          "item": "definecraft:obsidianstick"
+        }
+
+  },
+  "result":
+  {
+    "item": "definecraft:hellspawnsword",
+    "count": 1
+  }
+}

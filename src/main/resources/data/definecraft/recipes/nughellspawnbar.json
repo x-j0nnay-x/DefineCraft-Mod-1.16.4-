@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:hellspawnnug"
+    }
+
+  },
+  "result":
+  {
+    "item": "definecraft:hellspawnbar",
+    "count": 1
+  }
+}

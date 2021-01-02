@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x"
+
+  ],
+
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:terbiumbar"
+    }
+
+
+  },
+  "result":
+  {
+    "item": "definecraft:terbiumboots",
+    "count": 1
+  }
+}

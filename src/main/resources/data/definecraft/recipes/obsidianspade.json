@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "z",
+    "z"
+  ],
+
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:obsidianbar"
+    },
+    "z":
+        {
+          "item": "definecraft:goldstick"
+        }
+
+  },
+  "result":
+  {
+    "item": "definecraft:obsidianspade",
+    "count": 1
+  }
+}

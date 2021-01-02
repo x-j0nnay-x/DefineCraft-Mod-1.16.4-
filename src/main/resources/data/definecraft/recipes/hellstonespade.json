@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "z",
+    "z"
+  ],
+
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:hellstonebar"
+    },
+    "z":
+        {
+          "item": "definecraft:obsidianstick"
+        }
+
+  },
+  "result":
+  {
+    "item": "definecraft:hellstonespade",
+    "count": 1
+  }
+}

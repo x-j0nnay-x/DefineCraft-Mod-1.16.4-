@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:nuggets/hellspawn",
+    "#forge:nuggets/hellstone",
+    "#forge:nuggets/obsidian",
+    "#forge:nuggets/silver",
+    "#forge:nuggets/terbium"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "z"
+  ],
+
+  "key":
+  {
+    "z":
+    {
+      "item": "minecraft:flint"
+    },
+         "x":
+             {
+               "item": "minecraft:stick"
+             }
+
+  },
+  "result":
+  {
+    "item": "definecraft:grinderhead",
+    "count": 2
+  }
+}

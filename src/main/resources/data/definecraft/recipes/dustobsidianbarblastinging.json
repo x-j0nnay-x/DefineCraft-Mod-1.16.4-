@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+
+  "ingredient": {
+    "item": "definecraft:obsidiandust"
+  },
+
+  "result": "definecraft:obsidianbar",
+  "experience": 0.8,
+  "cookingtime": 50
+
+
+}

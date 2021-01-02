@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xz ",
+    " z "
+  ],
+  "pattern":
+  [
+    " xx",
+    " zx",
+    " z "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:terbiumbar"
+    },
+    "z":
+        {
+          "item": "minecraft:stick"
+        }
+
+  },
+  "result":
+  {
+    "item": "definecraft:terbiumaxe",
+    "count": 1
+  }
+}

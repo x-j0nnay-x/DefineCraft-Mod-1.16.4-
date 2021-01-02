@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/hellstone",
+    "#forge:ores/hellstonebl",
+    "#forge:ores/silver",
+    "#forge:ores/terbium"
+  ]
+}
