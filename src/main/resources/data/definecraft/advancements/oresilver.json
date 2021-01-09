@@ -1,0 +1,36 @@
+{
+  "parent": "definecraft:definecraftmod",
+  "display": {
+    "icon": {
+      "item": "definecraft:silverore"
+    },
+    "title": {
+      "translate": "advancements.ores.oresilver.title"
+    },
+    "description": {
+      "translate": "advancements.ores.oresilver.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "get_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "definecraft:silverore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_silver"
+    ]
+  ]
+}

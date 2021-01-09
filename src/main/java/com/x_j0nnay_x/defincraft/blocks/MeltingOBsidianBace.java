@@ -42,7 +42,7 @@ public class MeltingOBsidianBace extends BreakableBlock {
 
 
     public void randomTick(BlockState state, ServerWorld worldIn, BlockPos pos, Random random) {
-        if (worldIn.getLightFor(LightType.BLOCK, pos) > 11 - state.getOpacity(worldIn, pos)) {
+        if (worldIn.getLightFor(LightType.BLOCK, pos) >= 4 - state.getOpacity(worldIn, pos)) {
             this.turnIntoWater(state, worldIn, pos);
         }
 

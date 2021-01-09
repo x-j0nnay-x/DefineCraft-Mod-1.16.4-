@@ -1,0 +1,36 @@
+{
+  "parent": "definecraft:oresilver",
+  "display": {
+    "icon": {
+      "item": "definecraft:silverbar"
+    },
+    "title": {
+      "translate": "advancements.ingots.ingotsilver.title"
+    },
+    "description": {
+      "translate": "advancements.ingots.ingotsilver.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "get_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "definecraft:silverbar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_ingot"
+    ]
+  ]
+}

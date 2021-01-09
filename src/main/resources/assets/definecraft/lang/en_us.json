@@ -13,6 +13,7 @@
   "item.definecraft.goldstick" : "Golden Stick",
   "item.definecraft.obsidianstick" : "Obsidian Stick",
 
+  "item.definecraft.coaldust" : "Coal Dust",
   "item.definecraft.irondust" : "Iron Dust",
   "item.definecraft.golddust" : "Gold Dust",
   "item.definecraft.diamondust" : "Diamond Dust",
@@ -92,7 +93,55 @@
   "block.definecraft.meltingobsidianw" : "Melting Obsidian Water",
   "block.definecraft.meltingobsidianl" : "Melting Obsidian Lava",
 
+  "block.definecraft.invislight" : "invislight",
+
   "enchantment.definecraft.liquidwalker": "Liquid Walker",
+  "enchantment.definecraft.lightbringer": "Light Bringer",
+  "enchantment.definecraft.flight": "Flight",
+  "enchantment.definecraft.godmode": "God Mode",
+
+  "advancements.definecraftmod.title": "Define Craft Mod",
+  "advancements.definecraftmod.descr": "welcome to defineCraft, if you progress throught the mod you will see that some tools or armor will be pre-enchanted",
+  "advancements.definecraftenchant.title": "Define Craft Enchantmets",
+  "advancements.definecraftenchant.descr": "here is some info on the enchantments that have been added.",
+
+  "advancements.enchantment.liquidwalkerenchant.title" : "Liquid Walker Enchantment",
+  "advancements.enchantment.liquidwalkerenchant.descr" : "this will change all liquids into obsidian that will melt over time.",
+  "advancements.enchantment.lightbringerenchant.title" : "Light Bringer Enchantment",
+  "advancements.enchantment.lightbringerenchant.descr" : "this will spawn a light when you are in a dark place that will vanish after a period time.",
+  "advancements.enchantment.flightenchant.title" : "Flight Enchantment",
+  "advancements.enchantment.flightenchant.descr" : "this will remove fall damage and allow you to fly as if you are in creative mode.",
+  "advancements.enchantment.godmodeenchant.title" : "God Mode Enchantment",
+  "advancements.enchantment.godmodeenchant.descr" : "this will make you unable to drawn and burn. if you get damaged down to half of your hearts, you get strength and regen.",
+
+  "advancements.ores.oresilver.title": "What is silver ore?",
+  "advancements.ores.oresilver.descr": "mine a block of silver ore, you can do this with stone or better",
+  "advancements.ores.oreterbium.title": "What is terbium ore?",
+  "advancements.ores.oreterbium.descr": "mine a block of terbium ore, you can do this with iron or better",
+  "advancements.ores.obsidainore.title": "Obsidain tools?",
+  "advancements.ores.obsidainore.descr": "I really should try to smelt or grind this up to see what happens",
+  "advancements.ores.oreshellstone.title": "What is this hellstone ore?",
+  "advancements.ores.oreshellstone.descr": "mine a block of hellstone ore, you can do this with obsidian or better",
+
+  "advancements.ingots.ingotsilver.title": "What is silver?",
+  "advancements.ingots.ingotsilver.descr": "silver makes tools with more durability then iron but is still iron",
+  "advancements.ingots.ingotterbium.title": "What is terbium?",
+  "advancements.ingots.ingotterbium.descr": "terbium makes tools with more durability then silver and acts like diamond",
+  "advancements.ingots.ingotobsidian.title": "What is obsidian?",
+  "advancements.ingots.ingotobsidian.descr": "obsidian makes tools with more durability then diamond and but with a higher mining level",
+  "advancements.ingots.ingothellstone.title": "What is hellstone?",
+  "advancements.ingots.ingothellstone.descr": "Hellstone makes tools with more durability then obsidian and but with a higher mining level",
+  "advancements.ingots.hellspawnlevel.title": "I must make this",
+  "advancements.ingots.hellspawnlevel.descr": "you will not get this in world, you have to craft it.",
+
+  "advancements.items.gettinggrinder.title": "Ore Doubling?",
+  "advancements.items.gettinggrinder.descr": "It's not so hard to get more out of your ores, just one crafting step away",
+  "advancements.items.gettingdust.title": "well its dust now?",
+  "advancements.items.gettingdust.descr": "you used your grinder head, now that you got more out of you ore smelt it up",
+  "advancements.items.hellspawnarmor.title": "Hell Spawn? am I okay",
+  "advancements.items.hellspawnarmor.descr": "this is a little over powered but hard to make, you will never by the same.",
+  "advancements.items.hellspawntools.title": "Hell Spawn tool info",
+  "advancements.items.hellspawntools.descr": "this is better the hellstone in every way",
 
   "itemGroup.DefineCraftTab": "DefineCraft Tab"
 }

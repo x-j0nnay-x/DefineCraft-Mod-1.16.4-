@@ -1,12 +1,17 @@
 package com.x_j0nnay_x.defincraft.items;
 
 import com.x_j0nnay_x.defincraft.util.RegHandler;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class customHoe extends HoeItem {
     public customHoe(IItemTier itemTier, int attackDamage, float attackSpeed, Properties properties) {

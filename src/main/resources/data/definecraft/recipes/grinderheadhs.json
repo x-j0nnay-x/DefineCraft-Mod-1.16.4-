@@ -2,15 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "x",
-    "z"
+    " xx",
+    " z "
   ],
+  "pattern":
+  [
+    "xx ",
+    " z "
+  ],
+
 
   "key":
   {
     "z":
     {
-      "item": "definecraft:hellstonebar"
+      "item": "definecraft:hellspawnbar"
     },
          "x":
              {
@@ -20,7 +26,7 @@
   },
   "result":
   {
-    "item": "definecraft:grinderheadh",
+    "item": "definecraft:grinderheadhs",
     "count": 2
   }
 }

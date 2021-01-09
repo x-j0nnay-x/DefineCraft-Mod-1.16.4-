@@ -1,0 +1,36 @@
+{
+  "parent": "definecraft:orehellstone",
+  "display": {
+    "icon": {
+      "item": "definecraft:hellstonebar"
+    },
+    "title": {
+      "translate": "advancements.ingots.ingothellstone.title"
+    },
+    "description": {
+      "translate": "advancements.ingots.ingothellstone.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "get_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "definecraft:hellstonebar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_ingot"
+    ]
+  ]
+}

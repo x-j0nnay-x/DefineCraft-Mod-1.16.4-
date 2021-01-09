@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "z"
+  ],
+  "key": {
+    "x": {
+      "tag": "definecraft:grinderheadtag"
+    },
+    "z": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ]
+  },
+
+  "result":
+  {
+    "item": "definecraft:coaldust",
+    "count":2
+  }
+}

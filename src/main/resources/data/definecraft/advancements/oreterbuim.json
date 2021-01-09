@@ -1,0 +1,36 @@
+{
+  "parent": "definecraft:definecraftmod",
+  "display": {
+    "icon": {
+      "item": "definecraft:terbiumore"
+    },
+    "title": {
+      "translate": "advancements.ores.oreterbium.title"
+    },
+    "description": {
+      "translate": "advancements.ores.oreterbium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "get_terbium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "definecraft:terbiumore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_terbium"
+    ]
+  ]
+}

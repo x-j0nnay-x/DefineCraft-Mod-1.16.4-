@@ -1,0 +1,36 @@
+{
+  "parent": "definecraft:morewithobsidian",
+  "display": {
+    "icon": {
+      "item": "definecraft:obsidianbar"
+    },
+    "title": {
+      "translate": "advancements.ingots.ingotobsidian.title"
+    },
+    "description": {
+      "translate": "advancements.ingots.ingotobsidian.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "get_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "definecraft:obsidianbar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_ingot"
+    ]
+  ]
+}

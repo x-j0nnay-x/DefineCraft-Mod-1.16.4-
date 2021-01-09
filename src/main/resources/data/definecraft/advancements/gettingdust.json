@@ -1,0 +1,36 @@
+{
+  "parent": "definecraft:gettinggrinder",
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "definecraft:hellstonedust"
+    },
+    "title": {
+      "translate": "advancements.items.gettingdust.title"
+    },
+    "description": {
+      "translate": "advancements.items.gettingdust.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_Dust": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "tag": "definecraft:dusttag"
+        }
+      ]
+    }
+  }
+  },
+  "requirements": [
+    [
+      "get_Dust"
+    ]
+  ]
+}

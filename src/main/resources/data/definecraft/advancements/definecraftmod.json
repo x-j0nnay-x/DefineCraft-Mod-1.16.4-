@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "definecraft:hellstonesword"
+    },
+    "title": {
+      "translate": "advancements.definecraftmod.title"
+    },
+    "description": {
+      "translate": "advancements.definecraftmod.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:tick"
+
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

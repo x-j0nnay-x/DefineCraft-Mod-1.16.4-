@@ -1,0 +1,36 @@
+{
+  "parent": "definecraft:oreterbuim",
+  "display": {
+    "icon": {
+      "item": "definecraft:terbiumbar"
+    },
+    "title": {
+      "translate": "advancements.ingots.ingotterbium.title"
+    },
+    "description": {
+      "translate": "advancements.ingots.ingotterbium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "get_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "definecraft:terbiumbar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_ingot"
+    ]
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "definecraft:hellspawnlevel",
+  "display": {
+    "icon": {
+      "item": "definecraft:hellspawnhelmet"
+    },
+    "title": {
+      "translate": "advancements.items.hellspawnarmor.title"
+    },
+    "description": {
+      "translate": "advancements.items.hellspawnarmor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "hellspawn_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "definecraft:hellspawnhelmet"
+          },
+          {
+            "item": "definecraft:hellspawnchest"
+          },
+          {
+            "item": "definecraft:hellspawnlegs"
+          },
+          {
+            "item": "definecraft:hellspawnboots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hellspawn_armor"
+    ]
+  ]
+}
