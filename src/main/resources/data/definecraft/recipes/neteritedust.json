@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xz "
+  ],
+  "pattern":
+  [
+    "xxx",
+    " zx"
+  ],
+
+  "key":
+  {
+    "z":
+    {
+      "item": "definecraft:netheritedust"
+    },
+         "x":
+             {
+               "item": "definecraft:golddust"
+             }
+
+  },
+  "result":
+  {
+    "item": "definecraft:netheritedustc",
+    "count": 2
+  }
+}

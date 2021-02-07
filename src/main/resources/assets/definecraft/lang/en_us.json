@@ -17,6 +17,8 @@
   "item.definecraft.irondust" : "Iron Dust",
   "item.definecraft.golddust" : "Gold Dust",
   "item.definecraft.diamondust" : "Diamond Dust",
+  "item.definecraft.netheritedust" : "Netherite Scrap Dust",
+  "item.definecraft.netheritedustc" : "Netherite Dust",
 
   "item.definecraft.silverdust" : "Silver Dust",
   "item.definecraft.silverbar" : "Silver Ingot",
@@ -98,7 +100,7 @@
   "enchantment.definecraft.liquidwalker": "Liquid Walker",
   "enchantment.definecraft.lightbringer": "Light Bringer",
   "enchantment.definecraft.flight": "Flight",
-  "enchantment.definecraft.godmode": "God Mode",
+  "enchantment.definecraft.godmode": "Demons Blood",
 
   "advancements.definecraftmod.title": "Define Craft Mod",
   "advancements.definecraftmod.descr": "welcome to defineCraft, if you progress throught the mod you will see that some tools or armor will be pre-enchanted",
@@ -111,7 +113,7 @@
   "advancements.enchantment.lightbringerenchant.descr" : "this will spawn a light when you are in a dark place that will vanish after a period time.",
   "advancements.enchantment.flightenchant.title" : "Flight Enchantment",
   "advancements.enchantment.flightenchant.descr" : "this will remove fall damage and allow you to fly as if you are in creative mode.",
-  "advancements.enchantment.godmodeenchant.title" : "God Mode Enchantment",
+  "advancements.enchantment.godmodeenchant.title" : "Demons Blood Enchantment",
   "advancements.enchantment.godmodeenchant.descr" : "this will make you unable to drawn and burn. if you get damaged down to half of your hearts, you get strength and regen.",
 
   "advancements.ores.oresilver.title": "What is silver ore?",

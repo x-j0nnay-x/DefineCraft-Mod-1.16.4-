@@ -4,6 +4,7 @@ import com.mojang.serialization.DataResult;
 import com.x_j0nnay_x.defincraft.blocks.*;
 import com.x_j0nnay_x.defincraft.definecraftCore;
 import com.x_j0nnay_x.defincraft.enchantments.LiquidWalker;
+import com.x_j0nnay_x.defincraft.enchantments.lightbringer;
 import com.x_j0nnay_x.defincraft.items.*;
 import com.x_j0nnay_x.defincraft.tools.ModItemTier;
 import com.x_j0nnay_x.defincraft.tools.modarmor;
@@ -40,11 +41,11 @@ public class RegHandler {
     public static final RegistryObject<Enchantment> LiquidWalker = ENCHANTMENTS.register("liquidwalker", () ->
             new LiquidWalker(Enchantment.Rarity.RARE, EquipmentSlotType.FEET));
     public static final RegistryObject<Enchantment> LightBringer = ENCHANTMENTS.register("lightbringer", () ->
-            new LiquidWalker(Enchantment.Rarity.RARE, EquipmentSlotType.HEAD));
+            new lightbringer(Enchantment.Rarity.RARE, EquipmentSlotType.HEAD));
     public static final RegistryObject<Enchantment> Flight = ENCHANTMENTS.register("flight", () ->
             new LiquidWalker(Enchantment.Rarity.VERY_RARE, EquipmentSlotType.CHEST));
     public static final RegistryObject<Enchantment> GodMode = ENCHANTMENTS.register("godmode", () ->
-            new LiquidWalker(Enchantment.Rarity.VERY_RARE, EquipmentSlotType.HEAD));
+            new LiquidWalker(Enchantment.Rarity.VERY_RARE));
     //items
     public static final RegistryObject<Item> GRINDERHEAD = ITEMS.register("grinderhead", () -> new GrinderHead(10));
     public static final RegistryObject<Item> GRINDERHEAC = ITEMS.register("grinderheadc", () -> new GrinderHead(13));
@@ -63,9 +64,8 @@ public class RegHandler {
     public static final RegistryObject<Item> IRONDUST = ITEMS.register("irondust", () -> new DCBasicItem(1));
     public static final RegistryObject<Item> GOLDDUST = ITEMS.register("golddust", () -> new DCBasicItem(1));
     public static final RegistryObject<Item> DIAMONDDUST = ITEMS.register("diamondust", () -> new DCBasicItem(1));
-
-    public static final RegistryObject<Item> PORTCRAFTING = ITEMS.register("portcrafting", () -> new portablecraftingtable());
-
+    public static final RegistryObject<Item> NETHERITEDUST = ITEMS.register("netheritedust", () -> new DCBasicItem(1));
+    public static final RegistryObject<Item> NETHERITEDUSTC = ITEMS.register("netheritedustc", () -> new DCBasicItem(1));
 
     //silver
     public static final RegistryObject<Item> SILVERDUST = ITEMS.register("silverdust", () -> new DCBasicItem(1));
@@ -73,11 +73,11 @@ public class RegHandler {
     public static final RegistryObject<Item> SILVERNUG = ITEMS.register("silvernug", () -> new DCBasicItem(3));
     //tools
     public static final RegistryObject<SwordItem> SILVERSWORD = ITEMS.register("silversword", () ->
-            new SwordItem(ModItemTier.Silver, 2, -2.4f, new Item.Properties().group(definecraftCore.TAB)));
+            new SwordItem(ModItemTier.Silver, 3, -2.4f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<ShovelItem> SILVERSPADE = ITEMS.register("silverspade", () ->
             new ShovelItem(ModItemTier.Silver, 0, -3.4f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<PickaxeItem> SILVERPICKAXE = ITEMS.register("silverpickaxe", () ->
-            new PickaxeItem(ModItemTier.Silver, 0, -3.4f, new Item.Properties().group(definecraftCore.TAB)));
+            new PickaxeItem(ModItemTier.Silver, 0, -3f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<AxeItem> SILVERAXE = ITEMS.register("silveraxe", () ->
             new AxeItem(ModItemTier.Silver, 3, -3.4f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<HoeItem> SILVERHOE = ITEMS.register("silverhoe", () ->
@@ -110,7 +110,7 @@ public class RegHandler {
     public static final RegistryObject<PickaxeItem> TERBIUMPICKAXE = ITEMS.register("terbiumpickaxe", () ->
             new PickaxeItem(ModItemTier.Terbium, 0, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<AxeItem> TERBIUMAXE = ITEMS.register("terbiumaxe", () ->
-            new AxeItem(ModItemTier.Terbium, 4, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
+            new AxeItem(ModItemTier.Terbium, 4, -3f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<HoeItem> TERBIUMHOE = ITEMS.register("terbiumhoe", () ->
             new HoeItem(ModItemTier.Terbium, -3, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
     //armor
@@ -135,13 +135,13 @@ public class RegHandler {
     public static final RegistryObject<Item> OBSIDIANNUG = ITEMS.register("obsidiannug", () -> new DCBasicItem(3));
     //tools
     public static final RegistryObject<SwordItem> OBSIDIANSWORD = ITEMS.register("obsidiansword", () ->
-            new SwordItem(ModItemTier.Obsidian, 4, -2.4f, new Item.Properties().group(definecraftCore.TAB)));
+            new customesword(ModItemTier.Obsidian, 4, -2.4f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<ShovelItem> OBSIDIANSPADE = ITEMS.register("obsidianspade", () ->
             new ShovelItem(ModItemTier.Obsidian, 0, -3.4f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<PickaxeItem> OBSIDIANPICKAXE = ITEMS.register("obsidianpickaxe", () ->
             new customepickaxe(ModItemTier.Obsidian, 0, -3.4f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<AxeItem> OBSIDIANAXE = ITEMS.register("obsidianaxe", () ->
-            new customaxe(ModItemTier.Obsidian, 5, -3.4f, new Item.Properties().group(definecraftCore.TAB)));
+            new customaxe(ModItemTier.Obsidian, 5, -2.5f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<HoeItem> OBSIDIANHOE = ITEMS.register("obsidianhoe", () ->
             new HoeItem(ModItemTier.Obsidian, -3, -3.4f, new Item.Properties().group(definecraftCore.TAB)));
     //armor
@@ -169,7 +169,7 @@ public class RegHandler {
     public static final RegistryObject<PickaxeItem> HELLSTONEPICKAXE = ITEMS.register("hellstonepickaxe", () ->
             new customepickaxe(ModItemTier.Hellstone, 0, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<AxeItem> HELLSTONEAXE = ITEMS.register("hellstoneaxe", () ->
-            new customaxe(ModItemTier.Hellstone, 6, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
+            new customaxe(ModItemTier.Hellstone, 6, -2.5f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<HoeItem> HELLSTONEHOE = ITEMS.register("hellstonehoe", () ->
             new customHoe(ModItemTier.Hellstone, -3, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
     //armor
@@ -200,7 +200,7 @@ public class RegHandler {
     public static final RegistryObject<PickaxeItem> HELLSPAWNPICKAXE = ITEMS.register("hellspawnpickaxe", () ->
             new customepickaxe(ModItemTier.Hellspawn, 0, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<AxeItem> HELLSPAWNAXE = ITEMS.register("hellspawnaxe", () ->
-            new customaxe(ModItemTier.Hellspawn, 8, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
+            new customaxe(ModItemTier.Hellspawn, 8, -2.5f, new Item.Properties().group(definecraftCore.TAB)));
     public static final RegistryObject<HoeItem> HELLSPAWNHOE = ITEMS.register("hellspawnhoe", () ->
             new customHoe(ModItemTier.Hellspawn, -3, -2.7f, new Item.Properties().group(definecraftCore.TAB)));
     //armor

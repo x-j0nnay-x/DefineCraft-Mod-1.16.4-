@@ -31,4 +31,8 @@ public class customHoe extends HoeItem {
             par1ItemStack.addEnchantment(Enchantments.UNBREAKING, 4);
         }
     }
+    @Override
+    public boolean isImmuneToFire() {
+        return true;
+    }
 }

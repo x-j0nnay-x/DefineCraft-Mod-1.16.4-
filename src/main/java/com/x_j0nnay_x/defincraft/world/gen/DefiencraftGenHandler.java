@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.biome.Biomes;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
@@ -17,6 +18,7 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.ArrayList;
 
@@ -46,12 +48,13 @@ public class DefiencraftGenHandler {
         overworldOres.add(register("neutralis_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(
                 OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD, RegHandler.TERBIUMORE.get().getDefaultState(), 5)) //Vein Size
                 .range(30).square() //Spawn height start
-                .func_242731_b(8))); //Chunk spawn frequency
+                .func_242731_b(5))); //Chunk spawn frequency
         //Nether Ore Register
         netherOres.add(register("flame_crystal_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(
                 OreFeatureConfig.FillerBlockType.NETHERRACK, RegHandler.HELLSTONEORE.get().getDefaultState(), 4))
                 .range(120).square()//spawn hight start
                 .func_242731_b(14)));//chunk spawn fequency
+
         netherOres1.add(register("flame_crystal_ore", Feature.ORE.withConfiguration(new OreFeatureConfig(
                 OreFeatureConfig.FillerBlockType.BASE_STONE_NETHER, RegHandler.HELLSTONEOREBL.get().getDefaultState(), 4))
                 .range(120).square()//spawn hight start

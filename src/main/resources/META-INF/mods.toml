@@ -8,7 +8,7 @@ license="All rights reserved"
 
 modId="definecraft" #mandatory
 
-version="M-1.16.4-V-01.02" #mandatory
+version="M-1.16.4-V-01.05" #mandatory
 
 displayName="DefineCraft Mod" #mandatory
 
@@ -17,6 +17,8 @@ logoFile="DefineCraft.png" #optional
 authors="xX_j0nnay_Xx" #optional
 
 description='''
-This Mod adds more ores, more armor, more tools.
+This Mod adds more ores, more armor, more tools, and some enchantmets. its just
+a smiple addon to make things a bit more interesting. simple ore doubling, more
+ways to play the game with out going overboard.
 
 '''

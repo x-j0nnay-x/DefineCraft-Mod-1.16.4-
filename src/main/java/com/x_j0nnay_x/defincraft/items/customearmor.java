@@ -3,6 +3,8 @@ package com.x_j0nnay_x.defincraft.items;
 
 import com.x_j0nnay_x.defincraft.util.RegHandler;
 import net.minecraft.enchantment.Enchantments;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
@@ -31,11 +33,24 @@ public class customearmor extends ArmorItem {
         if (ArmorLevel == 2){
             par1ItemStack.addEnchantment(Enchantments.MENDING, 4);
             par1ItemStack.addEnchantment(Enchantments.UNBREAKING, 4);
-            par1ItemStack.addEnchantment(Enchantments.THORNS, 4); }
+            par1ItemStack.addEnchantment(Enchantments.THORNS, 4);
+            par1ItemStack.addEnchantment(RegHandler.GodMode.get(), 1);}
         if (this.slot == EquipmentSlotType.FEET) {
-            par1ItemStack.addEnchantment(RegHandler.LiquidWalker.get(), 2);}
+            par1ItemStack.addEnchantment(RegHandler.LiquidWalker.get(), 1);
+            if(ArmorLevel >=1){
+            par1ItemStack.addEnchantment(Enchantments.SOUL_SPEED, 2);}
+        }
+        if (this.slot == EquipmentSlotType.CHEST && ArmorLevel == 2) {
+            par1ItemStack.addEnchantment(RegHandler.Flight.get(), 1);}
+        if (this.slot == EquipmentSlotType.HEAD && ArmorLevel >= 1) {
+            par1ItemStack.addEnchantment(RegHandler.LightBringer.get(), 1);}
 
     }
+    @Override
+    public boolean isImmuneToFire() {return true; }
 
-
+    public void onArmorTickUpdate(World world, PlayerEntity player, ItemStack itemStack)
+    {
+       
+   }
 }

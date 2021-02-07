@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "zzx",
+    "zyx",
+    "zxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "definecraft:hellstonebar"
+    },
+    "z":
+        {
+          "item": "definecraft:obsidianbar"
+        },
+    "y":
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+
+  },
+  "result":
+  {
+    "item": "definecraft:hellspawnbar",
+    "count": 3
+  }
+}

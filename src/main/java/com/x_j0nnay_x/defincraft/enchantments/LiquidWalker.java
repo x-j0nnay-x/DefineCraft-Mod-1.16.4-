@@ -28,13 +28,21 @@ public class LiquidWalker extends Enchantment {
     }
 
     @Override
+    public int getMinEnchantability(int enchantmentLevel) {
+        return enchantmentLevel * 10;
+    }
+    @Override
+    public int getMaxEnchantability(int enchantmentLevel) {
+        return this.getMinEnchantability(enchantmentLevel) + 15;
+    }
+    @Override
     public int getMaxLevel() {
-        return 2;
+        return 1;
     }
 
     @Override
     public boolean canApplyTogether(Enchantment ench) {
-        return super.canApplyTogether(ench) && ench != Enchantments.DEPTH_STRIDER;
+        return super.canApplyTogether(ench) && ench != Enchantments.DEPTH_STRIDER && ench != Enchantments.FROST_WALKER;
     }
     @Mod.EventBusSubscriber(modid = definecraftCore.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
     public static class EnchantmentEquiped {

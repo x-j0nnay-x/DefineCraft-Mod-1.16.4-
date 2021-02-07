@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "z"
+  ],
+
+  "key":
+  {
+    "z":
+    {
+      "item": "minecraft:ancient_debris"
+    },
+    "x":
+    {
+      "tag": "definecraft:grinderheadtag"
+    }
+
+  },
+  "result":
+  {
+    "item": "definecraft:netheritedust",
+    "count":2
+  }
+}

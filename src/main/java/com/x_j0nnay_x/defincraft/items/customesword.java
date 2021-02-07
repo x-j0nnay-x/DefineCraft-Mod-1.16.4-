@@ -35,4 +35,8 @@ public class customesword extends SwordItem {
             par1ItemStack.addEnchantment(Enchantments.LOOTING, 4);
         }
     }
+    @Override
+    public boolean isImmuneToFire() {
+        return true;
+    }
 }

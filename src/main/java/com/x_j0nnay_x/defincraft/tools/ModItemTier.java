@@ -7,6 +7,9 @@ import net.minecraft.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
+//IRON=2, 250, 6.0F, 2.0F, 14,
+//DIAMOND=3, 1561, 8.0F, 3.0F, 10
+//NETHERITE(4, 2031, 9.0F, 4.0F, 15
 
     Silver(2, 350, 7.0f, 3.0f, 15, () -> {
         return Ingredient.fromItems(RegHandler.SILVERBAR.get());
@@ -16,7 +19,7 @@ public enum ModItemTier implements IItemTier {
         return Ingredient.fromItems(RegHandler.TERBIUMBAR.get());
     }),
 
-    Obsidian(4, 2000, 8.0f, 4.3f, 38, () -> {
+    Obsidian(4, 1900, 8.0f, 4.3f, 38, () -> {
         return Ingredient.fromItems(RegHandler.OBSIDIANBAR.get());
     }),
     Hellstone(5, 4000, 9.0f, 5.5f, 50, () -> {

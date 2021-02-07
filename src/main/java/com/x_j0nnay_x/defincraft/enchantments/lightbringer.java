@@ -29,6 +29,14 @@ public class lightbringer extends Enchantment {
     }
 
     @Override
+    public int getMinEnchantability(int enchantmentLevel) {
+        return enchantmentLevel * 10;
+    }
+    @Override
+    public int getMaxEnchantability(int enchantmentLevel) {
+        return this.getMinEnchantability(enchantmentLevel) + 15;
+    }
+    @Override
     public int getMaxLevel() {
         return 1;
     }
@@ -48,7 +56,7 @@ public class lightbringer extends Enchantment {
                 if (living.hasItemInSlot(EquipmentSlotType.HEAD)
                    && EnchantmentHelper.getEnchantmentLevel(RegHandler.LightBringer.get(),
                     living.getItemStackFromSlot(EquipmentSlotType.HEAD)) > 0){
-                    if (worldIn.getLight(pos) <= 4){
+                    if (worldIn.getLight(pos) <= 4 && worldIn.isAirBlock(pos)){
                        worldIn.setBlockState(pos, blockstate);
                     }}
                 }

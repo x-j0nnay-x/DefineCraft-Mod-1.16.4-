@@ -29,4 +29,8 @@ public class customspade extends ShovelItem {
             par1ItemStack.addEnchantment(Enchantments.EFFICIENCY, 4);
         }
     }
+    @Override
+    public boolean isImmuneToFire() {
+        return true;
+    }
 }

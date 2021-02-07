@@ -36,4 +36,20 @@ public class customaxe extends AxeItem {
 
         }
     }
+
+    @Override
+    public boolean isImmuneToFire() {
+        if (this.equals(RegHandler.OBSIDIANAXE.get())){
+            return true;
+        }
+        if (this.equals(RegHandler.HELLSTONEAXE.get())){
+            return true;
+        }
+        if (this.equals(RegHandler.HELLSPAWNAXE.get())){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }

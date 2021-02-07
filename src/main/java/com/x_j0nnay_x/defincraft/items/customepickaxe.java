@@ -28,4 +28,8 @@ public class customepickaxe extends PickaxeItem {
 
         }
     }
+    @Override
+    public boolean isImmuneToFire() {
+        return true;
+    }
 }
